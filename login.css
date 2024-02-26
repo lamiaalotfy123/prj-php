@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("fi.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ 
+  .wrapper{
+   width: 420px;
+  
+   color: aliceblue;
+   border-radius: 12px;
+   padding: 30px 40px;
+  }
+  .wrapper h1{
+    font-size: 36px;
+    text-align: center;
+
+  }
+  .wrapper .input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+
+
+  }
+  .input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255,255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: rgb(247, 248, 248);
+    padding: 20px 45px 20px  20px;
+
+  }
+  .input-box input::placeholder{
+    color: aliceblue;
+  }
+  .wrapper .remeber-forgot{
+    display: flex;
+    justify-content: space-between;
+   font-size: 14.5px;
+    margin: -15px 0 15px;
+  }
+  .wrapper .remeber-label input{
+    accent-color: #fff;
+    margin-right: 3px;
+  }
+  .remeber-forgot a{
+color: #fff;
+text-decoration: none;
+  }
+.remeber-forgot a:hover{
+    text-decoration: underline;
+   
+}
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border:  0 0 10px rgba(0, 0,0,.1);
+    border-radius: 40px;
+    font-size: 16px;
+    color: rgb(1, 17, 31);
+    /* padding: 20px 45px 20px  20px; */
+    cursor: pointer;
+    margin: 20px 0 15px;
+
+
+}
+.wrapper .btn:hover{
+  background-color: #b88205;
+  
+
+}
+  
+
