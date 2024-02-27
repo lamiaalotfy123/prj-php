@@ -22,14 +22,20 @@
           <a class="nav-link" href="#">Contact Us</a>
         </li>
       </ul>
-      <div class="d-flex flex-row-reverse">
-          <a class="nav-link" href="logout.php">
-            <button class="btn btn-outline-danger rounded-pill" type="button">Logout</button>
-          </a>
-        <a class="nav-link" href="login.php">
-          <button class="btn btn-outline-danger rounded-pill" type="button">Login</button>
-        </a>
-      </div>
+      <?php
+
+
+session_start();
+
+
+     if (isset($_SESSION['user_id'])) {
+     ?>
+     <a class="nav-link" href="logout.php">
+         <button class="btn btn-secondary btn-outline-warning rounded-pill" type="button">Logout</button>
+     </a>
+     <?php } ?>
+     
+
     </div>
   </div>
 </nav>

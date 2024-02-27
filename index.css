@@ -1,0 +1,15 @@
+.card {
+  border-radius: 100%;
+}
+
+.card-img{
+    
+    height: 300px;
+}
+
+.btn {
+  float: right;
+}
+.view {
+  height: 60%;
+}
